@@ -12,7 +12,7 @@ const Download = () => {
           <p className={`${styles.pText} ${styles.blackText}`}>Get the full source code on GitHub</p>
         </div>
         <div className={styles.flexWrap}>
-        <button className={styles.btnPrimary}>Source Code</button>
+        <a href='https://github.com/diiiiana99/e-commerce' className={styles.btnPrimary}>Source Code</a>
         <a href='https://youtu.be/BOaruHOH1fI' className={styles.btnPrimary}>App Demo</a>
         </div>
         <div className={styles.flexCenter}>
