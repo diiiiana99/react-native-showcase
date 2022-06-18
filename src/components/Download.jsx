@@ -11,7 +11,10 @@ const Download = () => {
           <h1 className={`${styles.h1Text} ${styles.blackText}`}>Download the Source Code</h1>
           <p className={`${styles.pText} ${styles.blackText}`}>Get the full source code on GitHub</p>
         </div>
+        <div className={styles.flexWrap}>
         <button className={styles.btnPrimary}>Source Code</button>
+        <a href='https://youtu.be/BOaruHOH1fI' className={styles.btnPrimary}>App Demo</a>
+        </div>
         <div className={styles.flexCenter}>
           <img 
             src={assets.scene}
